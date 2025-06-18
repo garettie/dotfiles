@@ -50,8 +50,8 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
-alias ls='eza -a --color=always --group-directories-first --icons' # preferred listing
-alias la='eza -al --color=always --group-directories-first --icons'  # all files and dirs
+alias ls='eza -al --color=always --group-directories-first --icons' # preferred listing
+alias la='eza -a --color=always --group-directories-first --icons'  # all files and dirs
 alias ll='eza -l --color=always --group-directories-first --icons'  # long format
 alias lt='eza -aT --color=always --group-directories-first --icons' # tree listing
 alias l.="eza -a | grep -e '^\.'"                                     # show only dotfiles
@@ -73,7 +73,7 @@ alias gitpkg='pacman -Q | grep -i "\-git" | wc -l'          # List amount of -gi
 
 #Shell integrations
 eval "$(fzf --zsh)"
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
@@ -95,3 +95,5 @@ function y() {
 }
 
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/sgaret.toml)"
+
+. "$HOME/.local/share/../bin/env"

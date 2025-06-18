@@ -1,7 +1,7 @@
 {
   "position": "top",
   "modules-left":
- 	 ["hyprland/workspaces"],
+ 	 ["hyprland/workspaces", "mpd"],
 
   "hyprland/workspaces": {
     "all-outputs": true,
@@ -20,6 +20,18 @@
       "*": 6
     },
   },
+  "mpd": {
+    "format": " {album} - {title} {stateIcon}",
+    "format-disconnected": "No playback ",
+    "format-stopped": "Stopped  ",
+    "interval": 10,
+    "state-icons": {
+        "paused": "",
+        "playing": " "
+    },
+    "tooltip-format": "MPD (connected)",
+    "tooltip-format-disconnected": "MPD (disconnected)"
+},
  	 
   
   "modules-center": 

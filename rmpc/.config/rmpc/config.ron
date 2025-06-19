@@ -148,7 +148,7 @@
 	lower_cutoff_freq: 40,
 	higher_cutoff_freq: 20000,
 	input: (
-	    method: fifo,
+	    method: Fifo,
 	    source: "/tmp/mpd.fifo",
 	    sample_rate: 44100,
 	    channels: 2,

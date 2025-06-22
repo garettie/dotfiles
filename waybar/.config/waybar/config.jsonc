@@ -21,10 +21,13 @@
     },
   },
   "mpd": {
-    "format": " {album} - {title} {stateIcon}",
-    "format-disconnected": "No playback ",
-    "format-stopped": "Stopped  ",
+    "format": " | {title} {stateIcon}",
+    "format-disconnected": " | No playback ",
+    "format-stopped": " | mpd",
     "interval": 10,
+    "on-click": "rmpc togglepause",
+    "on-click-right": "kitty - rmpc",
+    "on-click-middle": "rmpc stop",
     "state-icons": {
         "paused": "",
         "playing": " "

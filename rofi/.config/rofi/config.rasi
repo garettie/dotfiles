@@ -1,7 +1,7 @@
 configuration {
     show-icons: true;
-    modi: "window,drun,ssh,combi,emoji:rofimoji";
-    combi-modi: "window,drun,ssh,emoji:rofimoji";
+    modi: "drun,ssh,combi,emoji:rofimoji";
+    combi-modi: "drun,ssh,emoji:rofimoji";
     display-ssh:    "󰣀 ssh:";
     display-run:    "󱓞 run:";
     display-drun:   "󰣖 drun:";

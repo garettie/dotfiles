@@ -267,11 +267,11 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "tonal-spot",
+        "generationMethod": "monochrome",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Kanagawa Paper",
+        "predefinedScheme": "Hexa34C",
         "schedulingMode": "off",
         "syncGsettings": true,
         "useWallpaperColors": false
@@ -714,9 +714,9 @@
     },
     "ui": {
         "boxBorderEnabled": true,
-        "fontDefault": "MonoLisa Nerd Font",
+        "fontDefault": "CommitMono Nerd Font",
         "fontDefaultScale": 1,
-        "fontFixed": "MonoLisa Nerd Font",
+        "fontFixed": "CommitMono Nerd Font",
         "fontFixedScale": 1,
         "panelBackgroundOpacity": 0.93,
         "panelsAttachedToBar": true,

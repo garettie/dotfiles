@@ -272,7 +272,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Hexa34C",
+        "predefinedScheme": "Kanagawa Dragon",
         "schedulingMode": "off",
         "syncGsettings": true,
         "useWallpaperColors": false
@@ -721,7 +721,7 @@
         "fontDefaultScale": 1,
         "fontFixed": "CommitMono Nerd Font",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 0.93,
+        "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,
         "scrollbarAlwaysVisible": true,
         "settingsPanelMode": "attached",

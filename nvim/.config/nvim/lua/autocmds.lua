@@ -15,7 +15,7 @@ autocmd("VimLeavePre", {
     callback = function()
         local socket = vim.env.KITTY_LISTEN_ON
         if socket then
-            vim.fn.system("kitty @ --to=" .. socket .. " set-spacing padding=10 margin=10")
+            vim.fn.system("kitty @ --to=" .. socket .. " set-spacing padding=0 margin=10")
         end
     end,
 })

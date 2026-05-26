@@ -1,12 +1,12 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 [character] # The name of the module we are configuring is 'character'
-success_symbol = '[➜](bold green)'
-error_symbol = "[✗](bold red)"
-vimcmd_symbol = "[](bold green)"
-vimcmd_replace_symbol = "[](bold green)"
-vimcmd_visual_symbol = "[](bold yellow)"
-vimcmd_replace_one_symbol = "[](bold purple)"
+success_symbol = '[➜](green)'
+error_symbol = "[➜](red)"
+vimcmd_symbol = "[](green)"
+vimcmd_replace_symbol = "[](green)"
+vimcmd_visual_symbol = "[](yellow)"
+vimcmd_replace_one_symbol = "[](purple)"
 
 [aws]
 symbol = " "

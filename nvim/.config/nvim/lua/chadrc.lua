@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-    theme = "kanagawa-dragon",
+    theme = "kanagawa",
 
     hl_override = {
         Comment = { italic = true },
@@ -32,7 +32,7 @@ M.nvdash = {
         "⠀⠀⠀⠀⠁⠀⠈⢧⣈⠀⠘⢦⠀⣀⠇⣼⠃⠰⣄⣡⠞⠀⠀⠀⠀⠀⠀⠀⠀",
         "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⢤⠼⠁⠀⠀⠳⣤⡼⠀⠀⠀⠀⠀⠀",
         "                      ",
-        -- "  Powered By  eovim ",
+        "  Powered By  eovim ",
         "                      ",
     },
 
@@ -52,6 +52,9 @@ M.ui = {
     tabufline = {
         lazyload = false,
     },
+    statusline = {
+        theme = "default"
+    }
 }
 
 return M

@@ -21,6 +21,9 @@ return {
       enabled = function()
         return vim.bo.filetype ~= "typr"
       end,
+      keymap = {
+        ["<CR>"] = { "fallback" },
+      },
     },
   },
 
